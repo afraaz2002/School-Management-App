@@ -1,0 +1,50 @@
+h1 {
+    background-color: #575ed7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 2rem auto;
+    color: white;
+    text-align: center;
+    width: 20%;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.492);
+    width: 50%;
+    padding: 2rem;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.col {
+    display: flex;
+    gap: 4rem;
+    flex-direction: column;
+    width: 30%;
+}
+
+.grade {
+    margin: 2rem 40% 0rem 40%;
+    background-color: lightgreen;
+    padding: 0.5em 1em;
+    width: 7rem;
+
+}
+
+.col p {
+    border-bottom: 3px black dotted;
+    width: max-content;
+}
+
+.border {
+    border-left: 2px solid black;
+    height: 15rem;
+}
+b{
+    margin-left: 7px;
+}

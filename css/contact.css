@@ -1,0 +1,82 @@
+h1{
+    background-color: #575ed7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    width: max-content;
+    margin: 2rem auto;
+}
+h2{
+    font-size: 2rem;
+}
+.container{
+    background-color: #aeb2ff;
+    padding: 2rem;
+    margin: 1rem auto;
+    line-height: 3rem;
+    max-width: 90%;    
+}
+.content{ 
+    font-size: 1.3rem;  
+    text-align:left;
+    width: 90%;
+    margin-left: 10%;
+}
+.input-info{
+   
+    margin: 2rem auto;
+    font-size: 1.2rem; 
+    background-color: #ffffff5d;
+    padding: 1rem;
+    width: 80%;
+    border-radius: 10px;
+}
+.input-items:not(:last-child){
+
+    width:min-content;
+}
+input{
+    width: 20rem;
+    font-size: 1.1rem;
+    padding: 0.5rem;
+}
+textarea{
+    padding: 1rem;
+    height: 15rem;
+    width: 80%;
+    font-size: 1.1rem;
+}
+.btn{
+    font-size: 1em;
+    padding: 0.5em ;
+    background-color: #575ed7;
+    color: white;
+    border: none;
+}
+
+@media (max-width:610px){
+h1,h2{
+    font-size: 1.5rem;
+}
+
+.input-info{
+    font-size: 1rem;
+}
+input{
+    width: 15rem;
+    font-size: 0.9rem;
+}
+.content{
+    font-size: 1rem;
+}
+@media (max-width:480px){
+   h2{
+        font-size: 1.1rem;
+    }
+    input{
+        width: 12rem;
+        font-size: 0.7rem;
+    }
+    
+}
+}

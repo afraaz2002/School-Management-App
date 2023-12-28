@@ -1,0 +1,171 @@
+.logo {
+    background-color: #575ed7;
+    width: 50%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.logo h1 {
+    font-size: 2.4rem;
+    color: #F0DE36;
+}
+
+.logo p {
+    font-size: 1.2rem;
+    color: #EEEDED;
+}
+
+.nav-list {
+    background-color: #0D1282;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 1rem;
+    position: relative;
+}
+
+.nav-list li a {
+    font-weight: 400;
+    padding: 0 1.5rem;
+    font-size: 1.2rem;
+    color: #EEEDED;
+    text-decoration: none;
+}
+
+.nav-list li:hover {
+    color: rgb(216, 216, 216);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 150px;
+    width: 10rem;
+}
+
+.dropdown-menu:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    width: max-content;
+    position: absolute;
+    background-color: #0d1382e0;
+    padding: 1rem;
+
+}
+
+.dropdown ul a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    display: block;
+    padding: 1rem;
+}
+
+.dropdown ul a:hover {
+    background-color: #575ed7;
+}
+
+.intro {
+    background-color: #bbbfff;
+    width: 80%;
+    padding: 1.5rem;
+    margin: 2rem auto;
+    font-family: 1.2rem;
+    border-radius: 10px;
+}
+
+.intro h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+    border: white 2px solid;
+    padding: 0.5rem 1rem;
+}
+
+.container {
+    width: min-content;
+    margin: 4rem auto;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 4rem;
+}
+
+.facilities {
+    border: 2px black solid;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    min-height: 30rem;
+    background-color: #c7fd64;
+}
+
+.facilities img {
+    width: 25rem;
+    height: 14rem;
+}
+
+.facilities h2 {
+    background-color: #575ed7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 2rem;
+    color: white;
+}
+
+.content-para {
+    width: 75%;
+    font-size: 1.1rem;
+    background-color: #efffd0;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+@media (max-width:400px) {
+    .content{
+      gap: 1rem;
+    }
+    .facilities{
+        border: none;
+    }
+    .facilities img {
+        width: 20rem;
+        height: 12rem;
+    }
+    .nav-list li a {
+        margin-bottom: 0.5rem;
+    }
+    .nav-list{
+      
+        align-items: center;
+    }
+    
+}
+@media (max-width:525px){
+    .logo{
+        width: 80%;
+    }
+}
+@media (max-width:750px) {
+
+    .logo h1 {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width:1055px) {
+    .content {
+        grid-template-columns: 1fr;
+    }
+}

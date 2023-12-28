@@ -1,0 +1,57 @@
+h1 {
+    background-color: #575ed7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    color: white;
+    width: 15%;
+    margin: 2rem auto;
+}
+
+.container {
+    display: flex;
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.263);
+    margin: 2rem auto;
+    padding: 1rem;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.3rem;
+}
+
+.container-left {
+    padding: 1rem;
+}
+
+.container-right {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 60%;
+}
+
+img {
+    border-radius: 50%;
+    width: 15rem;
+}
+
+.border {
+    border-left: 2px solid green;
+    height: 25rem;
+}
+
+.edit{
+    white-space: nowrap;
+    padding: 0.5em;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.7em;
+    font-weight: 500;
+    background-color: blanchedalmond;
+    border: none; 
+    box-shadow: 2px 2px 8px rgb(147, 147, 147);
+
+}
+
+.btn{
+    align-self: flex-start;
+}
+

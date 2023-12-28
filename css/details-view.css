@@ -1,0 +1,36 @@
+
+h1{
+    background-color: #575ed7;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin: 2rem auto;
+    color: white;
+    text-align: center;
+    width: max-content;  
+}
+.container{
+        width: 85%;
+        background-color: rgba(255, 255, 255, 0.492);
+        padding: 2rem 0rem;
+        overflow-x: auto;
+}
+table{
+    width: 90%;
+    margin: 0rem auto;
+}
+table,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td,tr{
+    text-align: center;
+    padding: 0.5rem;
+}
+button {
+    font-size: 0.8em;
+    padding: 0.5em;
+    background-color: rgb(217, 2, 2);
+    color: white;
+    border: none;
+    width: max-content;
+}
